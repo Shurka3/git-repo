@@ -1,0 +1,2 @@
+print("Hellow World")
+Print ("Hellow evrybody")
