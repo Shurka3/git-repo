@@ -1,3 +1,4 @@
 print("Hellow World")
 Print ("Hellow evrybody")
 Print ("Hellow")
+Print("hellow my dear friend")
