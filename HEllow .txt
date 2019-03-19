@@ -1,5 +1,6 @@
-print("Hellow World")
-Print ("Hellow evrybody")
-Print ("Hellow")
-Print("hellow my dear friend")
-Print("Glad to see you")
+<<<<<<< HEAD
+print("Hellow World;")
+Print ("Hellow evrybody;")
+Print ("Hellow;")
+Print("hellow my dear friend;")
+Print("Glad to see you;")
