@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <geekbrains.ru.weather.WeatherView
+            android:id="@+id/temperature_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/darker_gray"
+            app:wv_icon="@drawable/temperature_black"
+            app:wv_unit="@string/temperature_unit"
+            app:wv_color="@android:color/primary_text_light_nodisable"
+            android:layout_weight="1"/>
+        <geekbrains.ru.weather.WeatherView
+            android:id="@+id/humidity_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/background_dark"
+            app:wv_icon="@drawable/humidity_mask"
+            app:wv_unit="@string/humidity_unit"
+            app:wv_color="@android:color/primary_text_dark"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

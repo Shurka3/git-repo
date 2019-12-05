@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeatherView">
+        <attr name="wv_icon" format="reference"/>
+        <attr name="wv_unit" format="string"/>
+        <attr name="wv_color" format="color"/>
+    </declare-styleable>
+</resources>
